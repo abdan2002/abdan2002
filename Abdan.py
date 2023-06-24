@@ -20,7 +20,7 @@ if(selected == "Home") :
 
 if(selected == "Rangkaian Low Frequency Response-BJT Amplifier") :
     st.title("Contoh Rangkaian Low Frequency Response-BJT Amplifier")
-    st.image("bjt.png", width = 500)
+    st.image("IMG-20230624-WA0011.jpg", width = 500)
     st.subheader("Perhitungan Rangkaian Low Frequency Response-BJT Amplifier dan Analisis DC")
 
     Vcc = st.number_input("Masukkan Nilai Vcc (Volt)")
