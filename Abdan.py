@@ -79,12 +79,14 @@ if(selected == "Rangkaian Low Frequency Response-BJT Amplifier") :
                     ax1.set_ylabel('Amplitudo (V)')
                     ax1.set_title('Sinyal Vi')
                     ax1.grid(True)
+                    ax1.set_xlim(-0.05,0.05)
 
                     ax2.plot(t, hasil_Vo)
                     ax2.set_xlabel('Waktu (s)')
                     ax2.set_ylabel('Amplitudo (V)')
                     ax2.set_title('Sinyal Vo')
                     ax2.grid(True)
+                    ax2.set_xlim(-0.05,0.05)
 
                     plt.xlim(-0.05, 0.05)
                     plt.tight_layout()
@@ -134,12 +136,14 @@ if(selected == "Rangkaian Low Frequency Response-BJT Amplifier") :
                     ax1.set_ylabel('Amplitudo (V)')
                     ax1.set_title('Sinyal Vi')
                     ax1.grid(True)
+                    ax1.set_xlim(-0.05,0.05)
 
                     ax2.plot(t, hasil_Vo)
                     ax2.set_xlabel('Waktu (s)')
                     ax2.set_ylabel('Amplitudo (V)')
                     ax2.set_title('Sinyal Vo')
                     ax2.grid(True)
+                    ax2.set_xlim(-0.05,0.05)
 
                     plt.xlim(-0.05, 0.05)
                     plt.tight_layout()
@@ -190,12 +194,14 @@ if(selected == "Rangkaian Low Frequency Response-BJT Amplifier") :
                     ax1.set_ylabel('Amplitudo (V)')
                     ax1.set_title('Sinyal Vi')
                     ax1.grid(True)
+                    ax1.set_xlim(-0.05,0.05)
 
                     ax2.plot(t, hasil_Vo)
                     ax2.set_xlabel('Waktu (s)')
                     ax2.set_ylabel('Amplitudo (V)')
                     ax2.set_title('Sinyal Vo')
                     ax2.grid(True)
+                    ax2.set_xlim(-0.05,0.05)
 
                     plt.xlim(-0.05, 0.05)
                     plt.tight_layout()
